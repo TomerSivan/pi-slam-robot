@@ -1,0 +1,27 @@
+[7.703s] Invoking command in '/home/tomersi2/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/tomersi2/ros2_ws/build/my_robot_controller/prefix_override:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/tomersi2/ros2_ws/build/my_robot_controller/build install --record /home/tomersi2/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[11.728s] running egg_info
+[12.005s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[12.012s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[12.018s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[12.023s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[12.026s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[12.668s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[12.680s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[12.685s] running build
+[12.686s] running build_py
+[12.694s] copying my_robot_controller/motor_control.py -> /home/tomersi2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[12.696s] copying my_robot_controller/my_first_node.py -> /home/tomersi2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[12.697s] copying my_robot_controller/__init__.py -> /home/tomersi2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[12.703s] running install
+[12.758s] running install_lib
+[13.068s] running install_data
+[13.071s] copying resource/my_robot_controller -> /home/tomersi2/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[13.078s] copying package.xml -> /home/tomersi2/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[13.079s] running install_egg_info
+[13.401s] removing '/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[13.410s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[13.433s] running install_scripts
+[14.689s] Installing motor_forward script to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[14.691s] Installing my_node script to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[14.693s] writing list of installed files to '/home/tomersi2/ros2_ws/build/my_robot_controller/install.log'
+[14.840s] Invoked command in '/home/tomersi2/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/tomersi2/ros2_ws/build/my_robot_controller/prefix_override:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/tomersi2/ros2_ws/build/my_robot_controller/build install --record /home/tomersi2/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

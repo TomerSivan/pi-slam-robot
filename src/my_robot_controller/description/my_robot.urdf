@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<robot name="slam_robot">
+
+  <material name="blue">
+    <color rgba="0.47 0.64 1 1" />
+  </material>
+  <material name="black">
+    <color rgba="0.1 0.1 0.1 1" />
+  </material>
+  <material name="gray">
+    <color rgba="0.7 0.7 0.7 1" />
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.25 0.15 0.1"/>
+      </geometry>
+      <material name="blue" />
+    </visual>
+  </link>
+
+  <link name="lidar">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.025"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="black" />
+    </visual>
+  </link>
+
+  <link name="left_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.025" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <material name="gray" />
+    </visual>
+  </link>
+
+  <joint name="base_lidar_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="lidar" />
+    <origin xyz= "0.07 0 0.1125" rpy= "0 0 0" />
+  </joint>
+</robot>

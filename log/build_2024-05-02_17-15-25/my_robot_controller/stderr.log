@@ -1,0 +1,5 @@
+  File "/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/robot_state_publisher.py", line 15
+    urdf_file_path = /home/tomersi2/ros2_ws/src/my_robot_controller/description/my_robot.urdf
+                     ^
+SyntaxError: invalid syntax
+

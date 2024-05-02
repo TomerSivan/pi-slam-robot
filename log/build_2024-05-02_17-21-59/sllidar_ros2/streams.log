@@ -1,0 +1,52 @@
+[2.213s] Invoking command in '/home/tomersi2/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tomersi2/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[2.834s] [ 10%] Built target sllidar_client
+[2.915s] [100%] Built target sllidar_node
+[3.031s] Invoked command in '/home/tomersi2/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tomersi2/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[3.982s] Invoking command in '/home/tomersi2/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tomersi2/ros2_ws/build/sllidar_ros2
+[4.053s] -- Install configuration: ""
+[4.061s] -- Execute custom install script
+[4.070s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[4.071s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[4.073s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[4.074s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[4.079s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[4.083s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[4.085s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[4.087s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[4.091s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[4.093s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[4.095s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[4.096s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[4.098s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[4.099s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[4.102s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[4.103s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[4.105s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[4.106s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[4.107s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[4.109s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[4.115s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[4.118s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[4.121s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[4.126s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[4.128s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[4.130s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[4.135s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[4.138s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[4.141s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[4.142s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[4.143s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[4.145s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[4.147s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[4.148s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[4.149s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[4.151s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[4.153s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[4.155s] -- Symlinking: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[4.235s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[4.240s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.247s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.252s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[4.258s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[4.264s] -- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[4.288s] Invoked command in '/home/tomersi2/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tomersi2/ros2_ws/build/sllidar_ros2

@@ -1,0 +1,12 @@
+[31mCMake Error at lib/karto_sdk/CMakeLists.txt:15 (find_package):
+  Could not find a package configuration file provided by "TBB" with any of
+  the following names:
+
+    TBBConfig.cmake
+    tbb-config.cmake
+
+  Add the installation prefix of "TBB" to CMAKE_PREFIX_PATH or set "TBB_DIR"
+  to a directory containing one of the above files.  If "TBB" provides a
+  separate development package or SDK, be sure it has been installed.
+
+[0m

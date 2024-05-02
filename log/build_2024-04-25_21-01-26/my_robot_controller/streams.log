@@ -1,0 +1,32 @@
+[4.317s] Invoking command in '/home/tomersi2/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/tomersi2/ros2_ws/build/my_robot_controller/prefix_override:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomersi2/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force
+[6.103s] running develop
+[6.104s] /usr/local/lib/python3.10/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.105s] !!
+[6.105s] 
+[6.105s]         ********************************************************************************
+[6.106s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.106s]         Instead, use pypa/build, pypa/installer or other
+[6.106s]         standards-based tools.
+[6.107s] 
+[6.107s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.107s]         ********************************************************************************
+[6.108s] 
+[6.108s] !!
+[6.108s]   easy_install.initialize_options(self)
+[6.900s] running egg_info
+[6.952s] writing my_robot_controller.egg-info/PKG-INFO
+[6.955s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[6.956s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[6.957s] writing requirements to my_robot_controller.egg-info/requires.txt
+[6.958s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[7.072s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[7.076s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[7.142s] running build_ext
+[7.143s] Creating /home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[7.146s] Installing my_node script to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[7.147s] 
+[7.148s] Installed /home/tomersi2/ros2_ws/build/my_robot_controller
+[7.148s] running symlink_data
+[7.149s] symbolically linking /home/tomersi2/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /home/tomersi2/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[7.150s] symbolically linking /home/tomersi2/ros2_ws/build/my_robot_controller/package.xml -> /home/tomersi2/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[7.315s] Invoked command in '/home/tomersi2/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/tomersi2/ros2_ws/build/my_robot_controller/prefix_override:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomersi2/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force
