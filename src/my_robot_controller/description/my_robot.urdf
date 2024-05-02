@@ -31,12 +31,42 @@
     </visual>
   </link>
 
-  <link name="left_wheel">
+  <link name="left_wheel_back">
     <visual>
       <geometry>
-        <cylinder radius="0.05" length="0.025" />
+        <cylinder radius="0.045" length="0.014"/>
       </geometry>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="gray" />
+    </visual>
+  </link>
+
+    <link name="left_wheel_front">
+    <visual>
+      <geometry>
+        <cylinder radius="0.045" length="0.014"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="gray" />
+    </visual>
+  </link>
+
+  <link name="right_wheel_back">
+    <visual>
+      <geometry>
+        <cylinder radius="0.045" length="0.014"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <material name="gray" />
+    </visual>
+  </link>
+
+    <link name="right_wheel_front">
+    <visual>
+      <geometry>
+        <cylinder radius="0.045" length="0.014"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
       <material name="gray" />
     </visual>
   </link>
@@ -44,6 +74,34 @@
   <joint name="base_lidar_joint" type="fixed">
     <parent link="base_link" />
     <child link="lidar" />
-    <origin xyz= "0.07 0 0.1125" rpy= "0 0 0" />
+    <origin xyz= "-0.07 0 0.1125" rpy= "0 0 0" />
+  </joint>
+
+  <joint name="base_left_wheel_back_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="left_wheel_back" />
+    <origin xyz= "-0.0625 0.082 0.02" rpy= "0 0 0" />
+    <axis xyz= "0 1 0" />
+  </joint>
+
+  <joint name="base_left_wheel_front_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="left_wheel_front" />
+    <origin xyz= "0.0625 0.082 0.02" rpy= "0 0 0" />
+    <axis xyz= "0 1 0" />
+  </joint>
+
+  <joint name="base_right_wheel_back_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="right_wheel_back" />
+    <origin xyz= "-0.0625 -0.082 0.02" rpy= "0 0 0" />
+    <axis xyz= "0 1 0" />
+  </joint>
+
+  <joint name="base_right_wheel_front_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="right_wheel_front" />
+    <origin xyz= "0.0625 -0.082 0.02" rpy= "0 0 0" />
+    <axis xyz= "0 1 0" />
   </joint>
 </robot>
