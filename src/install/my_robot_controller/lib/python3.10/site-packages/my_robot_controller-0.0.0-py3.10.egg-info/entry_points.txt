@@ -1,0 +1,5 @@
+[console_scripts]
+motor_control = my_robot_controller.motor_control:main
+robot_state_publisher_node = my_robot_controller.robot_state_publisher:main
+static_transform_publisher = my_robot_controller.static_transform_publisher:main
+transform_publisher = my_robot_controller.transform_publisher:main

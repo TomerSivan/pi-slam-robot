@@ -1,0 +1,34 @@
+[1.109s] Invoking command in '/home/tomersi2/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tomersi2/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.318s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.140s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.212s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.471s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.489s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.536s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.036s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.048s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.033s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.572s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[6.133s] -- Configuring done
+[6.267s] -- Generating done
+[6.273s] -- Build files have been written to: /home/tomersi2/ros2_ws/build/sllidar_ros2
+[6.442s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[6.471s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[6.591s] [  5%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[6.671s] [ 10%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[52.929s] In file included from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[52.943s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[52.944s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[52.945s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[52.946s] [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[52.947s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[52.947s]       |                [01;35m[K^[m[K
+[52.959s] In file included from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[52.960s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[52.961s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[52.962s] [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[52.962s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[52.963s]       |                    [01;35m[K^[m[K

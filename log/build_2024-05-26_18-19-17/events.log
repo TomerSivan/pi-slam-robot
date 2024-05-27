@@ -1,0 +1,1086 @@
+[0.000000] (-) TimerEvent: {}
+[0.001604] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001732] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.002272] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.002359] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.044390] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.071609] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.099072] (-) TimerEvent: {}
+[0.199983] (-) TimerEvent: {}
+[0.300834] (-) TimerEvent: {}
+[0.402232] (-) TimerEvent: {}
+[0.502946] (-) TimerEvent: {}
+[0.603641] (-) TimerEvent: {}
+[0.704364] (-) TimerEvent: {}
+[0.805018] (-) TimerEvent: {}
+[0.905804] (-) TimerEvent: {}
+[1.006972] (-) TimerEvent: {}
+[1.041164] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[1.049087] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[1.051811] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tomersi2/ros2_ws/build/rf2o_laser_odometry', '--', '-j4', '-l4'], 'cwd': '/home/tomersi2/ros2_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'tomersi2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tomersi2'), ('OLDPWD', '/home/tomersi2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.110.233'), ('MANAGERPID', '1249'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3138'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tomersi2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tomersi2'), ('JOURNAL_STREAM', '8:21380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomersi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tomersi2-desktop:@/tmp/.ICE-unix/1387,unix/tomersi2-desktop:/tmp/.ICE-unix/1387'), ('INVOCATION_ID', '2713aad17447452197e4d7379a9573c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BPKTO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/tomersi2/ros2_ws/install/sllidar_ros2:/home/tomersi2/ros2_ws/install/my_robot_controller'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9938572f-1d76-457c-affe-bdff29a47d0a'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.110.231:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomersi2/ros2_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages'), ('ROS_HOSTNAME', '192.168.110.233'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tomersi2/ros2_ws/install/sllidar_ros2:/opt/ros/humble:/home/tomersi2/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[1.074983] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[1.078364] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[1.079769] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tomersi2/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/tomersi2/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'tomersi2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tomersi2'), ('OLDPWD', '/home/tomersi2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.110.233'), ('MANAGERPID', '1249'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3138'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tomersi2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tomersi2'), ('JOURNAL_STREAM', '8:21380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomersi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tomersi2-desktop:@/tmp/.ICE-unix/1387,unix/tomersi2-desktop:/tmp/.ICE-unix/1387'), ('INVOCATION_ID', '2713aad17447452197e4d7379a9573c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BPKTO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/tomersi2/ros2_ws/install/sllidar_ros2:/home/tomersi2/ros2_ws/install/my_robot_controller'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9938572f-1d76-457c-affe-bdff29a47d0a'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.110.231:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomersi2/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages'), ('ROS_HOSTNAME', '192.168.110.233'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tomersi2/ros2_ws/install/sllidar_ros2:/opt/ros/humble:/home/tomersi2/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[1.107273] (-) TimerEvent: {}
+[1.209058] (-) TimerEvent: {}
+[1.251870] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.309294] (-) TimerEvent: {}
+[1.394603] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[1.409544] (-) TimerEvent: {}
+[1.423775] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[1.481982] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[1.510095] (-) TimerEvent: {}
+[1.611473] (-) TimerEvent: {}
+[1.713844] (-) TimerEvent: {}
+[1.815247] (-) TimerEvent: {}
+[1.916305] (-) TimerEvent: {}
+[2.018633] (-) TimerEvent: {}
+[2.095772] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[2.118873] (-) TimerEvent: {}
+[2.150948] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tomersi2/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/tomersi2/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'tomersi2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tomersi2'), ('OLDPWD', '/home/tomersi2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.110.233'), ('MANAGERPID', '1249'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3138'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tomersi2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tomersi2'), ('JOURNAL_STREAM', '8:21380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tomersi2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tomersi2-desktop:@/tmp/.ICE-unix/1387,unix/tomersi2-desktop:/tmp/.ICE-unix/1387'), ('INVOCATION_ID', '2713aad17447452197e4d7379a9573c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BPKTO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/tomersi2/ros2_ws/install/sllidar_ros2:/home/tomersi2/ros2_ws/install/my_robot_controller'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9938572f-1d76-457c-affe-bdff29a47d0a'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.110.231:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tomersi2/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages'), ('ROS_HOSTNAME', '192.168.110.233'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tomersi2/ros2_ws/install/sllidar_ros2:/opt/ros/humble:/home/tomersi2/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[2.161392] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.206988] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.219339] (-) TimerEvent: {}
+[2.222633] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.226401] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[2.230051] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[2.234048] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[2.248155] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[2.249073] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[2.249786] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[2.250557] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[2.260135] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[2.260968] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[2.261926] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[2.262952] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[2.264536] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[2.271304] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[2.273138] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[2.274532] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[2.282510] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[2.285904] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[2.289406] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[2.291466] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[2.292218] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[2.293331] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[2.293878] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[2.294925] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[2.295835] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[2.296605] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[2.297613] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[2.298641] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[2.299496] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[2.300510] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[2.301213] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[2.301996] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[2.302599] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[2.304374] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[2.306236] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[2.308885] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[2.315511] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[2.317900] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[2.319449] (-) TimerEvent: {}
+[2.321945] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[2.392998] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[2.396803] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.399164] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.402608] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[2.406177] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[2.407468] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tomersi2/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[2.420744] (-) TimerEvent: {}
+[2.432430] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[2.521765] (-) TimerEvent: {}
+[2.605270] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.621893] (-) TimerEvent: {}
+[2.622956] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.671463] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.722083] (-) TimerEvent: {}
+[2.747396] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.822287] (-) TimerEvent: {}
+[2.853235] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.922507] (-) TimerEvent: {}
+[3.024170] (-) TimerEvent: {}
+[3.026118] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[3.125558] (-) TimerEvent: {}
+[3.217972] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.225772] (-) TimerEvent: {}
+[3.237240] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.326070] (-) TimerEvent: {}
+[3.429652] (-) TimerEvent: {}
+[3.531484] (-) TimerEvent: {}
+[3.632723] (-) TimerEvent: {}
+[3.734077] (-) TimerEvent: {}
+[3.834857] (-) TimerEvent: {}
+[3.935554] (-) TimerEvent: {}
+[4.036272] (-) TimerEvent: {}
+[4.136968] (-) TimerEvent: {}
+[4.237709] (-) TimerEvent: {}
+[4.338636] (-) TimerEvent: {}
+[4.440737] (-) TimerEvent: {}
+[4.531178] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.541136] (-) TimerEvent: {}
+[4.643322] (-) TimerEvent: {}
+[4.747407] (-) TimerEvent: {}
+[4.848902] (-) TimerEvent: {}
+[4.859411] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/tomersi2/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/tomersi2/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tomersi2/ros2_ws/src/my_robot_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IL:en', 'USER': 'tomersi2', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tomersi2', 'OLDPWD': '/home/tomersi2/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_IP': '192.168.110.233', 'MANAGERPID': '1249', 'SYSTEMD_EXEC_PID': '1410', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3138', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tomersi2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tomersi2', 'JOURNAL_STREAM': '8:21380', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tomersi2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tomersi2-desktop:@/tmp/.ICE-unix/1387,unix/tomersi2-desktop:/tmp/.ICE-unix/1387', 'INVOCATION_ID': '2713aad17447452197e4d7379a9573c1', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BPKTO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/tomersi2/ros2_ws/install/sllidar_ros2:/home/tomersi2/ros2_ws/install/my_robot_controller', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9938572f-1d76-457c-affe-bdff29a47d0a', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://192.168.110.231:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tomersi2/ros2_ws/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tomersi2/ros2_ws/build/my_robot_controller/prefix_override:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages', 'ROS_HOSTNAME': '192.168.110.233', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tomersi2/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[4.949041] (-) TimerEvent: {}
+[5.049690] (-) TimerEvent: {}
+[5.150488] (-) TimerEvent: {}
+[5.251223] (-) TimerEvent: {}
+[5.351887] (-) TimerEvent: {}
+[5.452635] (-) TimerEvent: {}
+[5.553302] (-) TimerEvent: {}
+[5.654054] (-) TimerEvent: {}
+[5.754753] (-) TimerEvent: {}
+[5.855442] (-) TimerEvent: {}
+[5.905530] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[5.955622] (-) TimerEvent: {}
+[5.970657] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[5.973870] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[5.975380] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[5.976678] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[5.977522] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[6.055844] (-) TimerEvent: {}
+[6.116571] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[6.129875] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[6.131036] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[6.131911] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[6.156068] (-) TimerEvent: {}
+[6.184604] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/motor_control.py -> /home/tomersi2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[6.188491] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/static_transform_publisher.py -> /home/tomersi2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[6.192567] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/__init__.py -> /home/tomersi2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[6.195160] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/transform_publisher.py -> /home/tomersi2/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[6.199083] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[6.226775] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[6.256212] (-) TimerEvent: {}
+[6.297738] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[6.300024] (my_robot_controller) StdoutLine: {'line': b'copying resource/my_robot_controller -> /home/tomersi2/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[6.300767] (my_robot_controller) StdoutLine: {'line': b'copying package.xml -> /home/tomersi2/ros2_ws/install/my_robot_controller/share/my_robot_controller\n'}
+[6.302235] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[6.304049] (my_robot_controller) StdoutLine: {'line': b'copying launch/start_robot.launch.py -> /home/tomersi2/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch/\n'}
+[6.304906] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.356387] (-) TimerEvent: {}
+[6.371501] (my_robot_controller) StdoutLine: {'line': b"removing '/home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.373590] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[6.380954] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[6.456600] (-) TimerEvent: {}
+[6.502589] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[6.531084] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.537681] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.556752] (-) TimerEvent: {}
+[6.657578] (-) TimerEvent: {}
+[6.758264] (-) TimerEvent: {}
+[6.858976] (-) TimerEvent: {}
+[6.959729] (-) TimerEvent: {}
+[7.058882] (my_robot_controller) StdoutLine: {'line': b'Installing motor_control script to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.059853] (-) TimerEvent: {}
+[7.060779] (my_robot_controller) StdoutLine: {'line': b'Installing robot_state_publisher_node script to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.061842] (my_robot_controller) StdoutLine: {'line': b'Installing static_transform_publisher script to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.062792] (my_robot_controller) StdoutLine: {'line': b'Installing transform_publisher script to /home/tomersi2/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.064650] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/tomersi2/ros2_ws/build/my_robot_controller/install.log'\n"}
+[7.160162] (-) TimerEvent: {}
+[7.220031] (my_robot_controller) CommandEnded: {'returncode': 0}
+[7.253930] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[7.260284] (-) TimerEvent: {}
+[7.360916] (-) TimerEvent: {}
+[7.461634] (-) TimerEvent: {}
+[7.562425] (-) TimerEvent: {}
+[7.663241] (-) TimerEvent: {}
+[7.763962] (-) TimerEvent: {}
+[7.864698] (-) TimerEvent: {}
+[7.965406] (-) TimerEvent: {}
+[8.066180] (-) TimerEvent: {}
+[8.166877] (-) TimerEvent: {}
+[8.208524] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.267088] (-) TimerEvent: {}
+[8.367784] (-) TimerEvent: {}
+[8.468570] (-) TimerEvent: {}
+[8.542306] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[8.568738] (-) TimerEvent: {}
+[8.669430] (-) TimerEvent: {}
+[8.770106] (-) TimerEvent: {}
+[8.870863] (-) TimerEvent: {}
+[8.971659] (-) TimerEvent: {}
+[9.072362] (-) TimerEvent: {}
+[9.173131] (-) TimerEvent: {}
+[9.274097] (-) TimerEvent: {}
+[9.320208] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.374295] (-) TimerEvent: {}
+[9.449395] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[9.459753] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/tomersi2/ros2_ws/build/rf2o_laser_odometry\n'}
+[9.474679] (-) TimerEvent: {}
+[9.575640] (-) TimerEvent: {}
+[9.632139] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[9.635447] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[9.640758] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[9.675847] (-) TimerEvent: {}
+[9.777336] (-) TimerEvent: {}
+[9.878224] (-) TimerEvent: {}
+[9.979881] (-) TimerEvent: {}
+[10.081348] (-) TimerEvent: {}
+[10.182290] (-) TimerEvent: {}
+[10.283756] (-) TimerEvent: {}
+[10.385287] (-) TimerEvent: {}
+[10.486403] (-) TimerEvent: {}
+[10.587297] (-) TimerEvent: {}
+[10.688641] (-) TimerEvent: {}
+[10.789478] (-) TimerEvent: {}
+[10.890629] (-) TimerEvent: {}
+[10.991580] (-) TimerEvent: {}
+[11.092383] (-) TimerEvent: {}
+[11.193668] (-) TimerEvent: {}
+[11.294751] (-) TimerEvent: {}
+[11.395566] (-) TimerEvent: {}
+[11.496866] (-) TimerEvent: {}
+[11.597659] (-) TimerEvent: {}
+[11.698754] (-) TimerEvent: {}
+[11.799462] (-) TimerEvent: {}
+[11.900266] (-) TimerEvent: {}
+[12.004456] (-) TimerEvent: {}
+[12.105275] (-) TimerEvent: {}
+[12.206197] (-) TimerEvent: {}
+[12.306949] (-) TimerEvent: {}
+[12.407743] (-) TimerEvent: {}
+[12.508635] (-) TimerEvent: {}
+[12.609387] (-) TimerEvent: {}
+[12.710754] (-) TimerEvent: {}
+[12.812131] (-) TimerEvent: {}
+[12.912953] (-) TimerEvent: {}
+[13.013665] (-) TimerEvent: {}
+[13.114525] (-) TimerEvent: {}
+[13.215440] (-) TimerEvent: {}
+[13.316220] (-) TimerEvent: {}
+[13.417768] (-) TimerEvent: {}
+[13.518604] (-) TimerEvent: {}
+[13.619496] (-) TimerEvent: {}
+[13.720451] (-) TimerEvent: {}
+[13.821570] (-) TimerEvent: {}
+[13.923060] (-) TimerEvent: {}
+[14.024205] (-) TimerEvent: {}
+[14.125424] (-) TimerEvent: {}
+[14.226407] (-) TimerEvent: {}
+[14.327208] (-) TimerEvent: {}
+[14.417287] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2DNode.h:9\x1b[m\x1b[K,\n'}
+[14.419140] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2DNode.cpp:18\x1b[m\x1b[K:\n'}
+[14.420851] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.421934] (rf2o_laser_odometry) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[14.422922] (rf2o_laser_odometry) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[14.427411] (-) TimerEvent: {}
+[14.528700] (-) TimerEvent: {}
+[14.629814] (-) TimerEvent: {}
+[14.730793] (-) TimerEvent: {}
+[14.831838] (-) TimerEvent: {}
+[14.933237] (-) TimerEvent: {}
+[15.034814] (-) TimerEvent: {}
+[15.136062] (-) TimerEvent: {}
+[15.237228] (-) TimerEvent: {}
+[15.338986] (-) TimerEvent: {}
+[15.440579] (-) TimerEvent: {}
+[15.544608] (-) TimerEvent: {}
+[15.647727] (-) TimerEvent: {}
+[15.756182] (-) TimerEvent: {}
+[15.858232] (-) TimerEvent: {}
+[15.959524] (-) TimerEvent: {}
+[16.064262] (-) TimerEvent: {}
+[16.165448] (-) TimerEvent: {}
+[16.266750] (-) TimerEvent: {}
+[16.367875] (-) TimerEvent: {}
+[16.471778] (-) TimerEvent: {}
+[16.576204] (-) TimerEvent: {}
+[16.680179] (-) TimerEvent: {}
+[16.788188] (-) TimerEvent: {}
+[16.892184] (-) TimerEvent: {}
+[16.996238] (-) TimerEvent: {}
+[17.100183] (-) TimerEvent: {}
+[17.204340] (-) TimerEvent: {}
+[17.308178] (-) TimerEvent: {}
+[17.412195] (-) TimerEvent: {}
+[17.514439] (-) TimerEvent: {}
+[17.615430] (-) TimerEvent: {}
+[17.716639] (-) TimerEvent: {}
+[17.818413] (-) TimerEvent: {}
+[17.919772] (-) TimerEvent: {}
+[18.020933] (-) TimerEvent: {}
+[18.122148] (-) TimerEvent: {}
+[18.223797] (-) TimerEvent: {}
+[18.325257] (-) TimerEvent: {}
+[18.426695] (-) TimerEvent: {}
+[18.528064] (-) TimerEvent: {}
+[18.629775] (-) TimerEvent: {}
+[18.731568] (-) TimerEvent: {}
+[18.833412] (-) TimerEvent: {}
+[18.935246] (-) TimerEvent: {}
+[19.036126] (-) TimerEvent: {}
+[19.137300] (-) TimerEvent: {}
+[19.238516] (-) TimerEvent: {}
+[19.339581] (-) TimerEvent: {}
+[19.448175] (-) TimerEvent: {}
+[19.549383] (-) TimerEvent: {}
+[19.650494] (-) TimerEvent: {}
+[19.756576] (-) TimerEvent: {}
+[19.860179] (-) TimerEvent: {}
+[19.964195] (-) TimerEvent: {}
+[20.065233] (-) TimerEvent: {}
+[20.166254] (-) TimerEvent: {}
+[20.267193] (-) TimerEvent: {}
+[20.368127] (-) TimerEvent: {}
+[20.469020] (-) TimerEvent: {}
+[20.569961] (-) TimerEvent: {}
+[20.670961] (-) TimerEvent: {}
+[20.771870] (-) TimerEvent: {}
+[20.876135] (-) TimerEvent: {}
+[20.977584] (-) TimerEvent: {}
+[21.078916] (-) TimerEvent: {}
+[21.180202] (-) TimerEvent: {}
+[21.281745] (-) TimerEvent: {}
+[21.383432] (-) TimerEvent: {}
+[21.485598] (-) TimerEvent: {}
+[21.586617] (-) TimerEvent: {}
+[21.688226] (-) TimerEvent: {}
+[21.789276] (-) TimerEvent: {}
+[21.890337] (-) TimerEvent: {}
+[21.991260] (-) TimerEvent: {}
+[22.092250] (-) TimerEvent: {}
+[22.193296] (-) TimerEvent: {}
+[22.294311] (-) TimerEvent: {}
+[22.396079] (-) TimerEvent: {}
+[22.497488] (-) TimerEvent: {}
+[22.601106] (-) TimerEvent: {}
+[22.702066] (-) TimerEvent: {}
+[22.803075] (-) TimerEvent: {}
+[22.904653] (-) TimerEvent: {}
+[23.006776] (-) TimerEvent: {}
+[23.107734] (-) TimerEvent: {}
+[23.209083] (-) TimerEvent: {}
+[23.311747] (-) TimerEvent: {}
+[23.413856] (-) TimerEvent: {}
+[23.515726] (-) TimerEvent: {}
+[23.617344] (-) TimerEvent: {}
+[23.719066] (-) TimerEvent: {}
+[23.820684] (-) TimerEvent: {}
+[23.922378] (-) TimerEvent: {}
+[24.023494] (-) TimerEvent: {}
+[24.125141] (-) TimerEvent: {}
+[24.226407] (-) TimerEvent: {}
+[24.327580] (-) TimerEvent: {}
+[24.429360] (-) TimerEvent: {}
+[24.530818] (-) TimerEvent: {}
+[24.632112] (-) TimerEvent: {}
+[24.733225] (-) TimerEvent: {}
+[24.834249] (-) TimerEvent: {}
+[24.938201] (-) TimerEvent: {}
+[25.039446] (-) TimerEvent: {}
+[25.141351] (-) TimerEvent: {}
+[25.242409] (-) TimerEvent: {}
+[25.343649] (-) TimerEvent: {}
+[25.445277] (-) TimerEvent: {}
+[25.546215] (-) TimerEvent: {}
+[25.647187] (-) TimerEvent: {}
+[25.748173] (-) TimerEvent: {}
+[25.849382] (-) TimerEvent: {}
+[25.950373] (-) TimerEvent: {}
+[26.051399] (-) TimerEvent: {}
+[26.152367] (-) TimerEvent: {}
+[26.253258] (-) TimerEvent: {}
+[26.354365] (-) TimerEvent: {}
+[26.459687] (-) TimerEvent: {}
+[26.560961] (-) TimerEvent: {}
+[26.661977] (-) TimerEvent: {}
+[26.771082] (-) TimerEvent: {}
+[26.876163] (-) TimerEvent: {}
+[26.977188] (-) TimerEvent: {}
+[27.078093] (-) TimerEvent: {}
+[27.179040] (-) TimerEvent: {}
+[27.280114] (-) TimerEvent: {}
+[27.381158] (-) TimerEvent: {}
+[27.482320] (-) TimerEvent: {}
+[27.586615] (-) TimerEvent: {}
+[27.688373] (-) TimerEvent: {}
+[27.792999] (-) TimerEvent: {}
+[27.894269] (-) TimerEvent: {}
+[27.996170] (-) TimerEvent: {}
+[28.097816] (-) TimerEvent: {}
+[28.199039] (-) TimerEvent: {}
+[28.302500] (-) TimerEvent: {}
+[28.406848] (-) TimerEvent: {}
+[28.508261] (-) TimerEvent: {}
+[28.609821] (-) TimerEvent: {}
+[28.711367] (-) TimerEvent: {}
+[28.812949] (-) TimerEvent: {}
+[28.914550] (-) TimerEvent: {}
+[29.015529] (-) TimerEvent: {}
+[29.124370] (-) TimerEvent: {}
+[29.236174] (-) TimerEvent: {}
+[29.344137] (-) TimerEvent: {}
+[29.445431] (-) TimerEvent: {}
+[29.546905] (-) TimerEvent: {}
+[29.649946] (-) TimerEvent: {}
+[29.752095] (-) TimerEvent: {}
+[29.856439] (-) TimerEvent: {}
+[29.965116] (-) TimerEvent: {}
+[30.066663] (-) TimerEvent: {}
+[30.170263] (-) TimerEvent: {}
+[30.271652] (-) TimerEvent: {}
+[30.372990] (-) TimerEvent: {}
+[30.474124] (-) TimerEvent: {}
+[30.575112] (-) TimerEvent: {}
+[30.676170] (-) TimerEvent: {}
+[30.777232] (-) TimerEvent: {}
+[30.878253] (-) TimerEvent: {}
+[30.979360] (-) TimerEvent: {}
+[31.080572] (-) TimerEvent: {}
+[31.182161] (-) TimerEvent: {}
+[31.283520] (-) TimerEvent: {}
+[31.385070] (-) TimerEvent: {}
+[31.486278] (-) TimerEvent: {}
+[31.589006] (-) TimerEvent: {}
+[31.690312] (-) TimerEvent: {}
+[31.792198] (-) TimerEvent: {}
+[31.893448] (-) TimerEvent: {}
+[31.995163] (-) TimerEvent: {}
+[32.096162] (-) TimerEvent: {}
+[32.197165] (-) TimerEvent: {}
+[32.298091] (-) TimerEvent: {}
+[32.399507] (-) TimerEvent: {}
+[32.501164] (-) TimerEvent: {}
+[32.602049] (-) TimerEvent: {}
+[32.703381] (-) TimerEvent: {}
+[32.806523] (-) TimerEvent: {}
+[32.907841] (-) TimerEvent: {}
+[33.011021] (-) TimerEvent: {}
+[33.113175] (-) TimerEvent: {}
+[33.214389] (-) TimerEvent: {}
+[33.315631] (-) TimerEvent: {}
+[33.416738] (-) TimerEvent: {}
+[33.518476] (-) TimerEvent: {}
+[33.619784] (-) TimerEvent: {}
+[33.721256] (-) TimerEvent: {}
+[33.822373] (-) TimerEvent: {}
+[33.927298] (-) TimerEvent: {}
+[34.028707] (-) TimerEvent: {}
+[34.129977] (-) TimerEvent: {}
+[34.231016] (-) TimerEvent: {}
+[34.332131] (-) TimerEvent: {}
+[34.433317] (-) TimerEvent: {}
+[34.534471] (-) TimerEvent: {}
+[34.645013] (-) TimerEvent: {}
+[34.749099] (-) TimerEvent: {}
+[34.850714] (-) TimerEvent: {}
+[34.951685] (-) TimerEvent: {}
+[35.053216] (-) TimerEvent: {}
+[35.154725] (-) TimerEvent: {}
+[35.256330] (-) TimerEvent: {}
+[35.361613] (-) TimerEvent: {}
+[35.462942] (-) TimerEvent: {}
+[35.563840] (-) TimerEvent: {}
+[35.665035] (-) TimerEvent: {}
+[35.766208] (-) TimerEvent: {}
+[35.867209] (-) TimerEvent: {}
+[35.968134] (-) TimerEvent: {}
+[36.069040] (-) TimerEvent: {}
+[36.172835] (-) TimerEvent: {}
+[36.275715] (-) TimerEvent: {}
+[36.379604] (-) TimerEvent: {}
+[36.480645] (-) TimerEvent: {}
+[36.581714] (-) TimerEvent: {}
+[36.685191] (-) TimerEvent: {}
+[36.786340] (-) TimerEvent: {}
+[36.887404] (-) TimerEvent: {}
+[36.988688] (-) TimerEvent: {}
+[37.066092] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rf2o::CLaserOdometry2D::performWarping()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[37.083125] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[37.084095] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           \x1b[01;31m\x1b[Krange_warped[image_level](round(uwarp)) += range_w\x1b[m\x1b[K;\n'}
+[37.085149] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.086123] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[37.087280] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.088176] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.089096] (-) TimerEvent: {}
+[37.091103] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.092058] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.102782] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[37.106309] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.107461] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.108313] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.109449] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[37.110282] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.111326] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[37.112230] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.113060] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.113842] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.114767] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.115817] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[37.116540] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.117159] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.117884] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.118593] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[37.119590] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.120714] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[37.121505] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.122087] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.122663] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.123489] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.124464] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[37.125303] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.126925] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.127757] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.128779] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[37.130388] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.132444] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rf2o::CLaserOdometry2D::performWarping()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[37.133985] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[37.135206] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           \x1b[01;31m\x1b[Krange_warped[image_level](round(uwarp)) += range_w\x1b[m\x1b[K;\n'}
+[37.137398] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.138892] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[37.140496] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.141577] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.142644] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.143613] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.144563] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[37.145268] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.145932] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.146628] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.147360] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[37.148285] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.149142] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[37.149797] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.150522] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.151354] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.152286] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.153173] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[37.154330] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.155146] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.156278] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.157121] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[37.157918] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.158594] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[37.159311] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.160020] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.160750] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.161788] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.162684] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[37.163425] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.164535] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.165437] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.166382] (rf2o_laser_odometry) StderrLine: {'line': b'  771 |           range_warped[image_level](round(uwarp)) += \x1b[01;36m\x1b[Krange_w\x1b[m\x1b[K;\n'}
+[37.167098] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.189403] (-) TimerEvent: {}
+[37.207495] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[37.210993] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           \x1b[01;31m\x1b[Kwacu(std::round(uwarp)) += 1.f\x1b[m\x1b[K;\n'}
+[37.213387] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[37.215503] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[37.218114] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.219122] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.220007] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.221110] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.222288] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[37.223200] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.224928] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.227318] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.229444] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[37.230286] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[37.232771] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[37.233653] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.234506] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.235557] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.236665] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.237867] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[37.238830] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.239703] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.241025] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.243231] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[37.245133] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[37.246121] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[37.246910] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.247808] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.248695] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.249473] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.250310] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[37.251058] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.251842] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.252806] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.254009] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[37.254842] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[37.256045] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::enable_if<true, Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange> >::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[37.257316] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           \x1b[01;31m\x1b[Kwacu(std::round(uwarp)) += 1.f\x1b[m\x1b[K;\n'}
+[37.259265] (rf2o_laser_odometry) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[37.261325] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[37.262689] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.263378] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.264268] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.264937] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.265756] (rf2o_laser_odometry) StderrLine: {'line': b'  158 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const MatrixBase<OtherDerived>& other);\n'}
+[37.266602] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.267314] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:158:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.268205] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.269181] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[37.270049] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[37.271120] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:273\x1b[m\x1b[K,\n'}
+[37.272236] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.273082] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.274455] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.276992] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.278848] (rf2o_laser_odometry) StderrLine: {'line': b'  493 |     template<typename OtherDerived> Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const ArrayBase<OtherDerived>& )\n'}
+[37.279752] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.293719] (-) TimerEvent: {}
+[37.295825] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.296725] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.297555] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[37.298422] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[37.299258] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:272\x1b[m\x1b[K,\n'}
+[37.300209] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[37.301134] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[37.301969] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[37.303098] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Derived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.304351] (rf2o_laser_odometry) StderrLine: {'line': b'  294 |     Derived& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+=(const EigenBase<OtherDerived> &other);\n'}
+[37.305107] (rf2o_laser_odometry) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[37.305824] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/DenseBase.h:294:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[37.306501] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.307260] (rf2o_laser_odometry) StderrLine: {'line': b'  772 |           wacu(std::round(uwarp)) += \x1b[01;36m\x1b[K1.f\x1b[m\x1b[K;\n'}
+[37.308091] (rf2o_laser_odometry) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[37.394321] (-) TimerEvent: {}
+[37.496034] (-) TimerEvent: {}
+[37.597212] (-) TimerEvent: {}
+[37.698543] (-) TimerEvent: {}
+[37.799664] (-) TimerEvent: {}
+[37.900929] (-) TimerEvent: {}
+[38.001944] (-) TimerEvent: {}
+[38.103354] (-) TimerEvent: {}
+[38.204800] (-) TimerEvent: {}
+[38.306482] (-) TimerEvent: {}
+[38.408370] (-) TimerEvent: {}
+[38.512022] (-) TimerEvent: {}
+[38.616168] (-) TimerEvent: {}
+[38.717269] (-) TimerEvent: {}
+[38.818306] (-) TimerEvent: {}
+[38.919218] (-) TimerEvent: {}
+[39.028618] (-) TimerEvent: {}
+[39.129863] (-) TimerEvent: {}
+[39.230876] (-) TimerEvent: {}
+[39.344135] (-) TimerEvent: {}
+[39.448152] (-) TimerEvent: {}
+[39.456562] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:164\x1b[m\x1b[K,\n'}
+[39.457718] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[39.459671] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[39.460627] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[39.461403] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = double; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.463047] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:36:\x1b[m\x1b[K   required from here\n'}
+[39.464051] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[39.464941] (rf2o_laser_odometry) StderrLine: {'line': b'  157 |   \x1b[01;31m\x1b[KEIGEN_STATIC_ASSERT_VECTOR_ONLY\x1b[m\x1b[K(Derived)\n'}
+[39.465678] (rf2o_laser_odometry) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.466535] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[39.467446] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = float; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = float]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.468502] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:15:\x1b[m\x1b[K   required from here\n'}
+[39.469456] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[39.470508] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[39.551168] (-) TimerEvent: {}
+[39.569746] (rf2o_laser_odometry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:164\x1b[m\x1b[K,\n'}
+[39.570826] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[39.572664] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2D.h:33\x1b[m\x1b[K,\n'}
+[39.584776] (rf2o_laser_odometry) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:18\x1b[m\x1b[K:\n'}
+[39.590674] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = double; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, double, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.604277] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:771:36:\x1b[m\x1b[K   required from here\n'}
+[39.605247] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[39.617976] (rf2o_laser_odometry) StderrLine: {'line': b'  157 |   \x1b[01;31m\x1b[KEIGEN_STATIC_ASSERT_VECTOR_ONLY\x1b[m\x1b[K(Derived)\n'}
+[39.636150] (rf2o_laser_odometry) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.642093] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[39.643093] (rf2o_laser_odometry) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type Eigen::DenseBase<Derived>::operator()(const Indices&) [with Indices = float; Derived = Eigen::Matrix<float, -1, -1>; typename Eigen::internal::enable_if<((! Eigen::DenseBase<Derived>::IsRowMajor) && (!((Eigen::internal::get_compile_time_incr<typename Eigen::DenseBase<Derived>::IvcType<Indices>::type>::value == 1) || Eigen::internal::is_valid_index_type<Indices>::value))), Eigen::IndexedView<Derived, typename Eigen::DenseBase<Derived>::IvcType<Indices>::type, Eigen::internal::SingleRange> >::type = Eigen::IndexedView<Eigen::Matrix<float, -1, -1>, float, Eigen::internal::SingleRange>; typename Eigen::DenseBase<Derived>::IvcType<Indices>::type = float]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.644293] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomersi2/ros2_ws/src/rf2o_laser_odometry/src/CLaserOdometry2D.cpp:772:15:\x1b[m\x1b[K   required from here\n'}
+[39.645071] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_TRIED_CALLING_A_VECTOR_METHOD_ON_A_MATRIX\n'}
+[39.645908] (rf2o_laser_odometry) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:157:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<float, -1, -1>::IsVectorAtCompileTime\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[39.673356] (-) TimerEvent: {}
+[39.774534] (-) TimerEvent: {}
+[39.884237] (-) TimerEvent: {}
+[39.992241] (-) TimerEvent: {}
+[40.093387] (-) TimerEvent: {}
+[40.200208] (-) TimerEvent: {}
+[40.301476] (-) TimerEvent: {}
+[40.416298] (-) TimerEvent: {}
+[40.517607] (-) TimerEvent: {}
+[40.619295] (-) TimerEvent: {}
+[40.724580] (-) TimerEvent: {}
+[40.825572] (-) TimerEvent: {}
+[40.929851] (-) TimerEvent: {}
+[41.035442] (-) TimerEvent: {}
+[41.139534] (-) TimerEvent: {}
+[41.241074] (-) TimerEvent: {}
+[41.342066] (-) TimerEvent: {}
+[41.443396] (-) TimerEvent: {}
+[41.544543] (-) TimerEvent: {}
+[41.645633] (-) TimerEvent: {}
+[41.747018] (-) TimerEvent: {}
+[41.848199] (-) TimerEvent: {}
+[41.950169] (-) TimerEvent: {}
+[42.051806] (-) TimerEvent: {}
+[42.153421] (-) TimerEvent: {}
+[42.256145] (-) TimerEvent: {}
+[42.357512] (-) TimerEvent: {}
+[42.460181] (-) TimerEvent: {}
+[42.569806] (-) TimerEvent: {}
+[42.672851] (-) TimerEvent: {}
+[42.773877] (-) TimerEvent: {}
+[42.876182] (-) TimerEvent: {}
+[42.980173] (-) TimerEvent: {}
+[43.081241] (-) TimerEvent: {}
+[43.183903] (-) TimerEvent: {}
+[43.285060] (-) TimerEvent: {}
+[43.386493] (-) TimerEvent: {}
+[43.488204] (-) TimerEvent: {}
+[43.589354] (-) TimerEvent: {}
+[43.690469] (-) TimerEvent: {}
+[43.792297] (-) TimerEvent: {}
+[43.896344] (-) TimerEvent: {}
+[44.001494] (-) TimerEvent: {}
+[44.109984] (-) TimerEvent: {}
+[44.228515] (-) TimerEvent: {}
+[44.335375] (-) TimerEvent: {}
+[44.436857] (-) TimerEvent: {}
+[44.538422] (-) TimerEvent: {}
+[44.640015] (-) TimerEvent: {}
+[44.742084] (-) TimerEvent: {}
+[44.847253] (-) TimerEvent: {}
+[44.949485] (-) TimerEvent: {}
+[45.054851] (-) TimerEvent: {}
+[45.161889] (-) TimerEvent: {}
+[45.263495] (-) TimerEvent: {}
+[45.364965] (-) TimerEvent: {}
+[45.466747] (-) TimerEvent: {}
+[45.569000] (-) TimerEvent: {}
+[45.670175] (-) TimerEvent: {}
+[45.771203] (-) TimerEvent: {}
+[45.872757] (-) TimerEvent: {}
+[45.975210] (-) TimerEvent: {}
+[46.076443] (-) TimerEvent: {}
+[46.177868] (-) TimerEvent: {}
+[46.290222] (-) TimerEvent: {}
+[46.395504] (-) TimerEvent: {}
+[46.496878] (-) TimerEvent: {}
+[46.598047] (-) TimerEvent: {}
+[46.699447] (-) TimerEvent: {}
+[46.806029] (-) TimerEvent: {}
+[46.909136] (-) TimerEvent: {}
+[47.010210] (-) TimerEvent: {}
+[47.111321] (-) TimerEvent: {}
+[47.213075] (-) TimerEvent: {}
+[47.321380] (-) TimerEvent: {}
+[47.424251] (-) TimerEvent: {}
+[47.528326] (-) TimerEvent: {}
+[47.636244] (-) TimerEvent: {}
+[47.738763] (-) TimerEvent: {}
+[47.841562] (-) TimerEvent: {}
+[47.944726] (-) TimerEvent: {}
+[48.046422] (-) TimerEvent: {}
+[48.149851] (-) TimerEvent: {}
+[48.252866] (-) TimerEvent: {}
+[48.354250] (-) TimerEvent: {}
+[48.456152] (-) TimerEvent: {}
+[48.559258] (-) TimerEvent: {}
+[48.661064] (-) TimerEvent: {}
+[48.768705] (-) TimerEvent: {}
+[48.869895] (-) TimerEvent: {}
+[48.974981] (-) TimerEvent: {}
+[49.077406] (-) TimerEvent: {}
+[49.179597] (-) TimerEvent: {}
+[49.281460] (-) TimerEvent: {}
+[49.385656] (-) TimerEvent: {}
+[49.487054] (-) TimerEvent: {}
+[49.594725] (-) TimerEvent: {}
+[49.696726] (-) TimerEvent: {}
+[49.800491] (-) TimerEvent: {}
+[49.902423] (-) TimerEvent: {}
+[50.004198] (-) TimerEvent: {}
+[50.105301] (-) TimerEvent: {}
+[50.206982] (-) TimerEvent: {}
+[50.310305] (-) TimerEvent: {}
+[50.414004] (-) TimerEvent: {}
+[50.515204] (-) TimerEvent: {}
+[50.616957] (-) TimerEvent: {}
+[50.718655] (-) TimerEvent: {}
+[50.821031] (-) TimerEvent: {}
+[50.923390] (-) TimerEvent: {}
+[51.028883] (-) TimerEvent: {}
+[51.130983] (-) TimerEvent: {}
+[51.237940] (-) TimerEvent: {}
+[51.341312] (-) TimerEvent: {}
+[51.450507] (-) TimerEvent: {}
+[51.551489] (-) TimerEvent: {}
+[51.654123] (-) TimerEvent: {}
+[51.758277] (-) TimerEvent: {}
+[51.859982] (-) TimerEvent: {}
+[51.973455] (-) TimerEvent: {}
+[52.081513] (-) TimerEvent: {}
+[52.185117] (-) TimerEvent: {}
+[52.295513] (-) TimerEvent: {}
+[52.397962] (-) TimerEvent: {}
+[52.499616] (-) TimerEvent: {}
+[52.600843] (-) TimerEvent: {}
+[52.701891] (-) TimerEvent: {}
+[52.803343] (-) TimerEvent: {}
+[52.912155] (-) TimerEvent: {}
+[53.015044] (-) TimerEvent: {}
+[53.117407] (-) TimerEvent: {}
+[53.218430] (-) TimerEvent: {}
+[53.319566] (-) TimerEvent: {}
+[53.429517] (-) TimerEvent: {}
+[53.530550] (-) TimerEvent: {}
+[53.634390] (-) TimerEvent: {}
+[53.737472] (-) TimerEvent: {}
+[53.842801] (-) TimerEvent: {}
+[53.944227] (-) TimerEvent: {}
+[54.047425] (-) TimerEvent: {}
+[54.149033] (-) TimerEvent: {}
+[54.250327] (-) TimerEvent: {}
+[54.352004] (-) TimerEvent: {}
+[54.455034] (-) TimerEvent: {}
+[54.556368] (-) TimerEvent: {}
+[54.664155] (-) TimerEvent: {}
+[54.765859] (-) TimerEvent: {}
+[54.868381] (-) TimerEvent: {}
+[54.971287] (-) TimerEvent: {}
+[55.076251] (-) TimerEvent: {}
+[55.177344] (-) TimerEvent: {}
+[55.278720] (-) TimerEvent: {}
+[55.385760] (-) TimerEvent: {}
+[55.486908] (-) TimerEvent: {}
+[55.588112] (-) TimerEvent: {}
+[55.689336] (-) TimerEvent: {}
+[55.792246] (-) TimerEvent: {}
+[55.895315] (-) TimerEvent: {}
+[55.996796] (-) TimerEvent: {}
+[56.098227] (-) TimerEvent: {}
+[56.199849] (-) TimerEvent: {}
+[56.304169] (-) TimerEvent: {}
+[56.405581] (-) TimerEvent: {}
+[56.506915] (-) TimerEvent: {}
+[56.608435] (-) TimerEvent: {}
+[56.712199] (-) TimerEvent: {}
+[56.813182] (-) TimerEvent: {}
+[56.914881] (-) TimerEvent: {}
+[57.024213] (-) TimerEvent: {}
+[57.126020] (-) TimerEvent: {}
+[57.236184] (-) TimerEvent: {}
+[57.337897] (-) TimerEvent: {}
+[57.439672] (-) TimerEvent: {}
+[57.543499] (-) TimerEvent: {}
+[57.652188] (-) TimerEvent: {}
+[57.756236] (-) TimerEvent: {}
+[57.858767] (-) TimerEvent: {}
+[57.960214] (-) TimerEvent: {}
+[58.062341] (-) TimerEvent: {}
+[58.163435] (-) TimerEvent: {}
+[58.264590] (-) TimerEvent: {}
+[58.365679] (-) TimerEvent: {}
+[58.476193] (-) TimerEvent: {}
+[58.577245] (-) TimerEvent: {}
+[58.678360] (-) TimerEvent: {}
+[58.784789] (-) TimerEvent: {}
+[58.886355] (-) TimerEvent: {}
+[58.988050] (-) TimerEvent: {}
+[59.089722] (-) TimerEvent: {}
+[59.191480] (-) TimerEvent: {}
+[59.294022] (-) TimerEvent: {}
+[59.395658] (-) TimerEvent: {}
+[59.496627] (-) TimerEvent: {}
+[59.600283] (-) TimerEvent: {}
+[59.701360] (-) TimerEvent: {}
+[59.804734] (-) TimerEvent: {}
+[59.906269] (-) TimerEvent: {}
+[60.008059] (-) TimerEvent: {}
+[60.114019] (-) TimerEvent: {}
+[60.216510] (-) TimerEvent: {}
+[60.318093] (-) TimerEvent: {}
+[60.424206] (-) TimerEvent: {}
+[60.525933] (-) TimerEvent: {}
+[60.627897] (-) TimerEvent: {}
+[60.728944] (-) TimerEvent: {}
+[60.832979] (-) TimerEvent: {}
+[60.937328] (-) TimerEvent: {}
+[61.040151] (-) TimerEvent: {}
+[61.147271] (-) TimerEvent: {}
+[61.249085] (-) TimerEvent: {}
+[61.352143] (-) TimerEvent: {}
+[61.453083] (-) TimerEvent: {}
+[61.554650] (-) TimerEvent: {}
+[61.655746] (-) TimerEvent: {}
+[61.764150] (-) TimerEvent: {}
+[61.865212] (-) TimerEvent: {}
+[61.968157] (-) TimerEvent: {}
+[62.080605] (-) TimerEvent: {}
+[62.181758] (-) TimerEvent: {}
+[62.283459] (-) TimerEvent: {}
+[62.392134] (-) TimerEvent: {}
+[62.504268] (-) TimerEvent: {}
+[62.608355] (-) TimerEvent: {}
+[62.712224] (-) TimerEvent: {}
+[62.823375] (-) TimerEvent: {}
+[62.924882] (-) TimerEvent: {}
+[63.032597] (-) TimerEvent: {}
+[63.133858] (-) TimerEvent: {}
+[63.235554] (-) TimerEvent: {}
+[63.337142] (-) TimerEvent: {}
+[63.449768] (-) TimerEvent: {}
+[63.556211] (-) TimerEvent: {}
+[63.660204] (-) TimerEvent: {}
+[63.764201] (-) TimerEvent: {}
+[63.868154] (-) TimerEvent: {}
+[63.972236] (-) TimerEvent: {}
+[64.076136] (-) TimerEvent: {}
+[64.180245] (-) TimerEvent: {}
+[64.281713] (-) TimerEvent: {}
+[64.382720] (-) TimerEvent: {}
+[64.488174] (-) TimerEvent: {}
+[64.592855] (-) TimerEvent: {}
+[64.709964] (-) TimerEvent: {}
+[64.810845] (-) TimerEvent: {}
+[64.911903] (-) TimerEvent: {}
+[65.012851] (-) TimerEvent: {}
+[65.115585] (-) TimerEvent: {}
+[65.216563] (-) TimerEvent: {}
+[65.317684] (-) TimerEvent: {}
+[65.419041] (-) TimerEvent: {}
+[65.519947] (-) TimerEvent: {}
+[65.620835] (-) TimerEvent: {}
+[65.721831] (-) TimerEvent: {}
+[65.823665] (-) TimerEvent: {}
+[65.928647] (-) TimerEvent: {}
+[66.041595] (-) TimerEvent: {}
+[66.144861] (-) TimerEvent: {}
+[66.247576] (-) TimerEvent: {}
+[66.348765] (-) TimerEvent: {}
+[66.450119] (-) TimerEvent: {}
+[66.551449] (-) TimerEvent: {}
+[66.653760] (-) TimerEvent: {}
+[66.756158] (-) TimerEvent: {}
+[66.858324] (-) TimerEvent: {}
+[66.961214] (-) TimerEvent: {}
+[67.062373] (-) TimerEvent: {}
+[67.164129] (-) TimerEvent: {}
+[67.265948] (-) TimerEvent: {}
+[67.381801] (-) TimerEvent: {}
+[67.483123] (-) TimerEvent: {}
+[67.584659] (-) TimerEvent: {}
+[67.686613] (-) TimerEvent: {}
+[67.788887] (-) TimerEvent: {}
+[67.889940] (-) TimerEvent: {}
+[67.996156] (-) TimerEvent: {}
+[68.104169] (-) TimerEvent: {}
+[68.208167] (-) TimerEvent: {}
+[68.309254] (-) TimerEvent: {}
+[68.410938] (-) TimerEvent: {}
+[68.512750] (-) TimerEvent: {}
+[68.614572] (-) TimerEvent: {}
+[68.716357] (-) TimerEvent: {}
+[68.818152] (-) TimerEvent: {}
+[68.920381] (-) TimerEvent: {}
+[69.022406] (-) TimerEvent: {}
+[69.124249] (-) TimerEvent: {}
+[69.225420] (-) TimerEvent: {}
+[69.326560] (-) TimerEvent: {}
+[69.428157] (-) TimerEvent: {}
+[69.532168] (-) TimerEvent: {}
+[69.636165] (-) TimerEvent: {}
+[69.740216] (-) TimerEvent: {}
+[69.844194] (-) TimerEvent: {}
+[69.948261] (-) TimerEvent: {}
+[70.056182] (-) TimerEvent: {}
+[70.160160] (-) TimerEvent: {}
+[70.261211] (-) TimerEvent: {}
+[70.372179] (-) TimerEvent: {}
+[70.480184] (-) TimerEvent: {}
+[70.582817] (-) TimerEvent: {}
+[70.683762] (-) TimerEvent: {}
+[70.792154] (-) TimerEvent: {}
+[70.893420] (-) TimerEvent: {}
+[70.994740] (-) TimerEvent: {}
+[71.099028] (-) TimerEvent: {}
+[71.204696] (-) TimerEvent: {}
+[71.305695] (-) TimerEvent: {}
+[71.408917] (-) TimerEvent: {}
+[71.510036] (-) TimerEvent: {}
+[71.611246] (-) TimerEvent: {}
+[71.712610] (-) TimerEvent: {}
+[71.814279] (-) TimerEvent: {}
+[71.917856] (-) TimerEvent: {}
+[72.022277] (-) TimerEvent: {}
+[72.124817] (-) TimerEvent: {}
+[72.226610] (-) TimerEvent: {}
+[72.328204] (-) TimerEvent: {}
+[72.430981] (-) TimerEvent: {}
+[72.532184] (-) TimerEvent: {}
+[72.634919] (-) TimerEvent: {}
+[72.736157] (-) TimerEvent: {}
+[72.837732] (-) TimerEvent: {}
+[72.965898] (-) TimerEvent: {}
+[73.067243] (-) TimerEvent: {}
+[73.168271] (-) TimerEvent: {}
+[73.269685] (-) TimerEvent: {}
+[73.370884] (-) TimerEvent: {}
+[73.476366] (-) TimerEvent: {}
+[73.580808] (-) TimerEvent: {}
+[73.686452] (-) TimerEvent: {}
+[73.790887] (-) TimerEvent: {}
+[73.904034] (-) TimerEvent: {}
+[74.005196] (-) TimerEvent: {}
+[74.106210] (-) TimerEvent: {}
+[74.212146] (-) TimerEvent: {}
+[74.321578] (-) TimerEvent: {}
+[74.424169] (-) TimerEvent: {}
+[74.525893] (-) TimerEvent: {}
+[74.628318] (-) TimerEvent: {}
+[74.729884] (-) TimerEvent: {}
+[74.840637] (-) TimerEvent: {}
+[74.944446] (-) TimerEvent: {}
+[75.046098] (-) TimerEvent: {}
+[75.151098] (-) TimerEvent: {}
+[75.253141] (-) TimerEvent: {}
+[75.354219] (-) TimerEvent: {}
+[75.455497] (-) TimerEvent: {}
+[75.557459] (-) TimerEvent: {}
+[75.659546] (-) TimerEvent: {}
+[75.762527] (-) TimerEvent: {}
+[75.864089] (-) TimerEvent: {}
+[75.965285] (-) TimerEvent: {}
+[76.067689] (-) TimerEvent: {}
+[76.169408] (-) TimerEvent: {}
+[76.280860] (-) TimerEvent: {}
+[76.381809] (-) TimerEvent: {}
+[76.483479] (-) TimerEvent: {}
+[76.592183] (-) TimerEvent: {}
+[76.695959] (-) TimerEvent: {}
+[76.807329] (-) TimerEvent: {}
+[76.908457] (-) TimerEvent: {}
+[77.009780] (-) TimerEvent: {}
+[77.112287] (-) TimerEvent: {}
+[77.214502] (-) TimerEvent: {}
+[77.315696] (-) TimerEvent: {}
+[77.416735] (-) TimerEvent: {}
+[77.517608] (-) TimerEvent: {}
+[77.618950] (-) TimerEvent: {}
+[77.720473] (-) TimerEvent: {}
+[77.821962] (-) TimerEvent: {}
+[77.925128] (-) TimerEvent: {}
+[78.032178] (-) TimerEvent: {}
+[78.133630] (-) TimerEvent: {}
+[78.237224] (-) TimerEvent: {}
+[78.338322] (-) TimerEvent: {}
+[78.442504] (-) TimerEvent: {}
+[78.549029] (-) TimerEvent: {}
+[78.653539] (-) TimerEvent: {}
+[78.754735] (-) TimerEvent: {}
+[78.856411] (-) TimerEvent: {}
+[78.957562] (-) TimerEvent: {}
+[79.072263] (-) TimerEvent: {}
+[79.173887] (-) TimerEvent: {}
+[79.275149] (-) TimerEvent: {}
+[79.376190] (-) TimerEvent: {}
+[79.477419] (-) TimerEvent: {}
+[79.580026] (-) TimerEvent: {}
+[79.681392] (-) TimerEvent: {}
+[79.782690] (-) TimerEvent: {}
+[79.884710] (-) TimerEvent: {}
+[79.997946] (-) TimerEvent: {}
+[80.247042] (-) TimerEvent: {}
+[83.866504] (-) TimerEvent: {}
+[86.237426] (-) TimerEvent: {}
+[87.549327] (-) TimerEvent: {}
+[89.716494] (-) TimerEvent: {}
+[91.461062] (-) TimerEvent: {}
+[93.815349] (-) TimerEvent: {}

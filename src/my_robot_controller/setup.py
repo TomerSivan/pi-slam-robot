@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             "motor_control = my_robot_controller.motor_control:main",
-            "robot_state_publisher_node = my_robot_controller.robot_state_publisher:main"
+            "robot_state_publisher_node = my_robot_controller.robot_state_publisher:main",
+            "robot_controller = my_robot_controller.robot_controller:main"
         ],
     },
 )

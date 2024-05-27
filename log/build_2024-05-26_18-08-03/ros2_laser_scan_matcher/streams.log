@@ -1,0 +1,21 @@
+[1.084s] Invoking command in '/home/tomersi2/ros2_ws/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller /usr/bin/cmake /home/tomersi2/ros2_ws/src/ros2_laser_scan_matcher -DCMAKE_INSTALL_PREFIX=/home/tomersi2/ros2_ws/install/ros2_laser_scan_matcher
+[1.295s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[1.296s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.298s]   has asked CMake to find a package configuration file provided by
+[1.299s]   "ament_cmake", but CMake did not find one.
+[1.300s] 
+[1.301s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.302s]   any of the following names:
+[1.304s] 
+[1.306s]     ament_cmakeConfig.cmake
+[1.307s]     ament_cmake-config.cmake
+[1.308s] 
+[1.314s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.318s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.319s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.319s]   has been installed.
+[1.321s] 
+[1.322s] [0m
+[1.327s] -- Configuring incomplete, errors occurred!
+[1.328s] See also "/home/tomersi2/ros2_ws/build/ros2_laser_scan_matcher/CMakeFiles/CMakeOutput.log".
+[1.334s] Invoked command in '/home/tomersi2/ros2_ws/build/ros2_laser_scan_matcher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller /usr/bin/cmake /home/tomersi2/ros2_ws/src/ros2_laser_scan_matcher -DCMAKE_INSTALL_PREFIX=/home/tomersi2/ros2_ws/install/ros2_laser_scan_matcher

@@ -11,6 +11,7 @@ setup.py
 launch/start_robot.launch.py
 my_robot_controller/__init__.py
 my_robot_controller/motor_control.py
+my_robot_controller/robot_controller.py
 resource/my_robot_controller
 test/test_copyright.py
 test/test_flake8.py

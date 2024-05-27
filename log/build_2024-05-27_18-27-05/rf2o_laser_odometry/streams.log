@@ -1,0 +1,25 @@
+[1.029s] Invoking command in '/home/tomersi2/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tomersi2/ros2_ws/build/rf2o_laser_odometry -- -j4 -l4
+[1.834s] [100%] Built target rf2o_laser_odometry
+[1.836s] [100%] Built target rf2o_laser_odometry_node
+[1.885s] Invoked command in '/home/tomersi2/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tomersi2/ros2_ws/build/rf2o_laser_odometry -- -j4 -l4
+[2.125s] Invoking command in '/home/tomersi2/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tomersi2/ros2_ws/build/rf2o_laser_odometry
+[2.168s] -- Install configuration: ""
+[2.174s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[2.176s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[2.177s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[2.178s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[2.179s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[2.180s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[2.182s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[2.184s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[2.184s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[2.185s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[2.185s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[2.194s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[2.195s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[2.196s] -- Installing: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[2.199s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[2.205s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[2.207s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[2.207s] -- Up-to-date: /home/tomersi2/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[2.209s] Invoked command in '/home/tomersi2/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tomersi2/ros2_ws/build/rf2o_laser_odometry

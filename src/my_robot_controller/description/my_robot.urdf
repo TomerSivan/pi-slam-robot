@@ -11,6 +11,11 @@
     <color rgba="0.7 0.7 0.7 1" />
   </material>
 
+
+  <link name="base_footprint" />
+
+  <!-- <link name="laser" /> -->
+
   <link name="base_link">
     <visual>
       <origin xyz="0 0 0.05" rpy="0 0 0"/>
@@ -71,37 +76,49 @@
     </visual>
   </link>
 
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint" />
+    <child link="base_link" />
+    <origin xyz= "0 0 0.025" rpy= "0 0 0" />
+  </joint>
+
   <joint name="base_lidar_joint" type="fixed">
     <parent link="base_link" />
     <child link="lidar" />
-    <origin xyz= "-0.07 0 0.1125" rpy= "0 0 0" />
+    <origin xyz= "0.07 0 0.1125" rpy= "0 0 0" />
   </joint>
+
+  <!-- <joint name="lidar_laser_joint" type="fixed">
+    <parent link="lidar" />
+    <child link="laser" />
+    <origin xyz= "0 0 0.0125" rpy= "0 0 0" />
+  </joint> -->
 
   <joint name="base_left_wheel_back_joint" type="fixed">
     <parent link="base_link" />
     <child link="left_wheel_back" />
-    <origin xyz= "-0.0625 0.082 0.02" rpy= "0 0 0" />
+    <origin xyz= "0.0625 -0.082 0.02" rpy= "0 0 0" />
     <axis xyz= "0 1 0" />
   </joint>
 
   <joint name="base_left_wheel_front_joint" type="fixed">
     <parent link="base_link" />
     <child link="left_wheel_front" />
-    <origin xyz= "0.0625 0.082 0.02" rpy= "0 0 0" />
+    <origin xyz= "-0.0625 -0.082 0.02" rpy= "0 0 0" />
     <axis xyz= "0 1 0" />
   </joint>
 
   <joint name="base_right_wheel_back_joint" type="fixed">
     <parent link="base_link" />
     <child link="right_wheel_back" />
-    <origin xyz= "-0.0625 -0.082 0.02" rpy= "0 0 0" />
+    <origin xyz= "0.0625 0.082 0.02" rpy= "0 0 0" />
     <axis xyz= "0 1 0" />
   </joint>
 
   <joint name="base_right_wheel_front_joint" type="fixed">
     <parent link="base_link" />
     <child link="right_wheel_front" />
-    <origin xyz= "0.0625 -0.082 0.02" rpy= "0 0 0" />
+    <origin xyz= "-0.0625 0.082 0.02" rpy= "0 0 0" />
     <axis xyz= "0 1 0" />
   </joint>
 </robot>

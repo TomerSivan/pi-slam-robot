@@ -1,0 +1,2 @@
+Invoking command in '/home/tomersi2/ros2_ws/build/ros2_laser_scan_matcher': /usr/bin/cmake /home/tomersi2/ros2_ws/src/ros2_laser_scan_matcher -DCMAKE_INSTALL_PREFIX=/home/tomersi2/ros2_ws/install/ros2_laser_scan_matcher
+Invoked command in '/home/tomersi2/ros2_ws/build/ros2_laser_scan_matcher' returned '1': /usr/bin/cmake /home/tomersi2/ros2_ws/src/ros2_laser_scan_matcher -DCMAKE_INSTALL_PREFIX=/home/tomersi2/ros2_ws/install/ros2_laser_scan_matcher

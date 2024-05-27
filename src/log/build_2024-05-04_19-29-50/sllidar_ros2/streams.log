@@ -1,0 +1,52 @@
+[1.434s] Invoking command in '/home/tomersi2/ros2_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/tomersi2/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/tomersi2/ros2_ws/src/install/sllidar_ros2
+[2.683s] -- The C compiler identification is GNU 11.4.0
+[3.538s] -- The CXX compiler identification is GNU 11.4.0
+[3.594s] -- Detecting C compiler ABI info
+[4.210s] -- Detecting C compiler ABI info - done
+[4.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.244s] -- Detecting C compile features
+[4.245s] -- Detecting C compile features - done
+[4.261s] -- Detecting CXX compiler ABI info
+[4.819s] -- Detecting CXX compiler ABI info - done
+[4.847s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.849s] -- Detecting CXX compile features
+[4.853s] -- Detecting CXX compile features - done
+[4.902s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.476s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.282s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[8.791s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.857s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.946s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.709s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.739s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.993s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.351s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.969s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.143s] -- Looking for pthread.h
+[14.206s] -- Looking for pthread.h - found
+[14.209s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.121s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.140s] -- Found Threads: TRUE  
+[16.800s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[17.887s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[18.853s] -- Configuring done
+[19.064s] -- Generating done
+[19.077s] -- Build files have been written to: /home/tomersi2/ros2_ws/src/build/sllidar_ros2
+[19.178s] Invoked command in '/home/tomersi2/ros2_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/tomersi2/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/tomersi2/ros2_ws/src/install/sllidar_ros2
+[19.185s] Invoking command in '/home/tomersi2/ros2_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomersi2/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tomersi2/ros2_ws/src/build/sllidar_ros2 -- -j4 -l4
+[19.722s] [  5%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[39.813s] In file included from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[39.816s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[39.817s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[39.819s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[39.820s] [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[39.820s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[39.822s]       |                [01;35m[K^[m[K
+[39.823s] In file included from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[39.824s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[39.824s]                  from [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[39.828s] [01m[K/home/tomersi2/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[39.828s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[39.829s]       |                    [01;35m[K^[m[K

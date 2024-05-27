@@ -1,0 +1,33 @@
+[0.105s] Invoking command in '/home/tomersi2/ros2_ws/build/hector_marker_drawing': /usr/bin/cmake /home/tomersi2/ros2_ws/src/hector_slam/hector_marker_drawing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tomersi2/ros2_ws/install/hector_marker_drawing
+[1.010s] -- The C compiler identification is GNU 11.4.0
+[1.977s] -- The CXX compiler identification is GNU 11.4.0
+[2.032s] -- Detecting C compiler ABI info
+[2.574s] -- Detecting C compiler ABI info - done
+[2.629s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.632s] -- Detecting C compile features
+[2.637s] -- Detecting C compile features - done
+[2.656s] -- Detecting CXX compiler ABI info
+[3.238s] -- Detecting CXX compiler ABI info - done
+[3.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.281s] -- Detecting CXX compile features
+[3.282s] -- Detecting CXX compile features - done
+[3.738s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[3.739s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.739s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.740s]   CMake did not find one.
+[3.740s] 
+[3.741s]   Could not find a package configuration file provided by "catkin" with any
+[3.742s]   of the following names:
+[3.744s] 
+[3.746s]     catkinConfig.cmake
+[3.747s]     catkin-config.cmake
+[3.749s] 
+[3.750s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.751s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.751s]   provides a separate development package or SDK, be sure it has been
+[3.753s]   installed.
+[3.754s] 
+[3.755s] -- Configuring incomplete, errors occurred!
+[3.755s] [0m
+[3.755s] See also "/home/tomersi2/ros2_ws/build/hector_marker_drawing/CMakeFiles/CMakeOutput.log".
+[3.775s] Invoked command in '/home/tomersi2/ros2_ws/build/hector_marker_drawing' returned '1': /usr/bin/cmake /home/tomersi2/ros2_ws/src/hector_slam/hector_marker_drawing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tomersi2/ros2_ws/install/hector_marker_drawing
